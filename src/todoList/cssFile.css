@@ -1,0 +1,13 @@
+.contentWrapper {
+    backround: lightgreen;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.title {
+    color: blue;
+    font-size: 18px;
+}
+.item {
+    color: red;
+    font-size: 14px;
+}
