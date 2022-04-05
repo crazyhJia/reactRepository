@@ -56,4 +56,4 @@ export default class APP2 extends Component {
 //
 // obj1.getName.call(obj2);
 // obj1.getName.apply(obj2);
-obj1.getName.bind(obj2)();
+// obj1.getName.bind(obj2)();

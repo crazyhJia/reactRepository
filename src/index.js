@@ -8,6 +8,9 @@ import UseCss from'./todoList/useCss'
 import EventBind from'./todoList/eventBind'
 import EventBind2 from'./todoList/eventBind2'
 import Ref from'./todoList/ref'
+import StateClass from'./todoList/stateClass'
+import ListRender from'./todoList/listRender'
+import DangerouslySetinnerHTML from'./todoList/dangerouslySetinnerHTML'
 
 ReactDom.render(
     // 严格模式
@@ -15,12 +18,14 @@ ReactDom.render(
         <div>
         {/*<ClassCom/>*/}
         {/*<FunCom/>*/}
-        {/*<List></List>*/}
         {/*<UseCss></UseCss>*/}
         {/*<EventBind></EventBind>*/}
         {/*<EventBind2></EventBind2>*/}
-        <Ref></Ref>
-
+        {/*<Ref></Ref>*/}
+        {/*<StateClass></StateClass>*/}
+        {/*<ListRender></ListRender>*/}
+        {/*<List></List>*/}
+        <DangerouslySetinnerHTML></DangerouslySetinnerHTML>
         </div>
     </React.StrictMode>
     , document.getElementById('root'))

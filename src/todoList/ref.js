@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 // 怎么拿到输入框的值呢
 export default class RefUse extends Component {
-    myref = React.createRef()
+    myref = React.createRef();
     render() {
         return (
             <div>
