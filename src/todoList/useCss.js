@@ -1,4 +1,4 @@
-import "./cssFile.css"
+import "./cssFile.css"  //webpack的支持
 import React from "react";
 class UseCss extends React.Component{
     render() {
@@ -19,8 +19,12 @@ class UseCss extends React.Component{
                 <p>组建的样式应用</p>
                 <div className='title'>我的字体是蓝色的，大小18px</div>
                 <div className='item'>我的字体是红色的，大小14px</div>
-                {/*react 官方文档推荐行内样式，*/}
+                {/*react 官方文档推荐行内样式，react 觉得每个组件都是一个独立的整体*/}
                 <div style={{color: 'red', border: '1px solid pink'}}>sdsd   设置了行内样式   </div>
+
+                {/*for 的写法 */}
+                <label htmlFor='username'>用户名：</label>
+                <input type="text" id='username'/>
         </div>)
     }
 }

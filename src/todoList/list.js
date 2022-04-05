@@ -6,6 +6,7 @@ class List extends Component {
             <button onClick={()=> this.clickAdd()}>add</button>
         </div>
     }
+
 }
 
 export default List;
