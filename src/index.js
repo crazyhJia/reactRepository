@@ -11,6 +11,9 @@ import Ref from'./todoList/ref'
 import StateClass from'./todoList/stateClass'
 import ListRender from'./todoList/listRender'
 import DangerouslySetinnerHTML from'./todoList/dangerouslySetinnerHTML'
+import MaizuoCard from'./todoList/maizuoCard'
+import SetStateTongbuYibu from'./todoList/setStateTongbuYibu'
+import Scroll from "./todoList/betterScroll";
 
 ReactDom.render(
     // 严格模式
@@ -25,7 +28,12 @@ ReactDom.render(
         {/*<StateClass></StateClass>*/}
         {/*<ListRender></ListRender>*/}
         {/*<List></List>*/}
-        <DangerouslySetinnerHTML></DangerouslySetinnerHTML>
+        {/*<DangerouslySetinnerHTML></DangerouslySetinnerHTML>*/}
+        {/*<MaizuoCard></MaizuoCard>*/}
+        {/*<SetStateTongbuYibu></SetStateTongbuYibu>*/}
+        <Scroll></Scroll>
+
+
         </div>
     </React.StrictMode>
     , document.getElementById('root'))
