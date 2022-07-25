@@ -14,6 +14,7 @@ import DangerouslySetinnerHTML from'./todoList/dangerouslySetinnerHTML'
 import MaizuoCard from'./todoList/maizuoCard'
 import SetStateTongbuYibu from'./todoList/setStateTongbuYibu'
 import Scroll from "./todoList/betterScroll";
+import Propss from "./todoList/props";
 
 ReactDom.render(
     // 严格模式
@@ -31,8 +32,8 @@ ReactDom.render(
         {/*<DangerouslySetinnerHTML></DangerouslySetinnerHTML>*/}
         {/*<MaizuoCard></MaizuoCard>*/}
         {/*<SetStateTongbuYibu></SetStateTongbuYibu>*/}
-        <Scroll></Scroll>
-
+        {/*<Scroll></Scroll>*/}
+        {<Propss></Propss>}
 
         </div>
     </React.StrictMode>
